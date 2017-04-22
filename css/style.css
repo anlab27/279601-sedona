@@ -1,0 +1,33 @@
+body {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  font-weight: normal;  
+}
+
+.feature-item h2,
+.advantages-item h2 {
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.features-blue .features-item h2 {
+	color: #ffffff;
+}
+
+.choise-hotel-title h3 {
+  font-size: 30px;
+  line-height: 24px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.hotel-list-item h1 {
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+  font-weight: bold;
+}
