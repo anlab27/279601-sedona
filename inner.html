@@ -10,9 +10,9 @@
     <div class="container">
       <header class="page-header">
         <div class="logo">
-          <a><img src="img/logo.png" width="138" height="70" alt="City of Sedona"></a>
+          <a href="index.html"><img src="img/logo.png" width="138" height="70" alt="City of Sedona"></a>
         </div>
-        <nav class="main-nav">
+        <nav class="main-nav clearfix">
           <ul>
             <li>
               <a href="#">Информация</a>
@@ -21,48 +21,64 @@
               <a href="#">Фото и видео</a>
             </li>
             <li>
-              <a href="#">Карта штата</a>
+              <a href="inner.html">Гостиницы</a>
             </li>
             <li>
-              <a href="inner.html">Гостиницы</a>
+              <a href="#">Карта штата</a>
             </li>
           </ul>
         </nav>     
       </header>
       <main>
-        <section class="search-conditions">
+        <section class="search-conditions clearfix">
           <form action="https://echo.htmlacademy.ru" method="get">
             <fieldset class="infrastructure">
               <legend>Инфраструктура:</legend>
-              <label>
-                <input type="radio" name="pool">
-                Бассейн
-              </label>
-              <label>
-                <input type="radio" name="parking">
-                Парковка
-              </label>
-              <label>
-                <input type="radio" name="wi-fi">
-                Wi-fi
-              </label>
+              <ul>
+                <li>
+                  <label>
+                    <input type="radio" name="pool">
+                    Бассейн
+                  </label>
+                </li>
+                <li>
+                  <label>
+                    <input type="radio" name="parking">
+                    Парковка
+                  </label>
+                </li>
+                <li>
+                  <label>
+                    <input type="radio" name="wi-fi">
+                    Wi-fi
+                  </label>
+                </li>
+              </ul>
             </fieldset>
             <fieldset class="type-place">
               <legend>Тип жилья:</legend>
-              <label>
-                <input type="radio" name="hotel">
-                Гостиница
-              </label>
-              <label>
-                <input type="radio" name="motel">
-                Мотель
-              </label>
-              <label>
-                <input type="radio" name="apartaments">
-                Апартаменты
-              </label>
+              <ul>
+                <li>
+                  <label>
+                    <input type="radio" name="hotel">
+                    Гостиница
+                  </label>
+                </li>
+                <li>
+                  <label>
+                    <input type="radio" name="motel">
+                    Мотель
+                  </label>
+                </li>
+                <li>
+                  <label>
+                    <input type="radio" name="apartaments">
+                    Апартаменты
+                  </label>
+                </li>
+              </ul>
             </fieldset>
-            <div class="left-wrapper">
+            <div class="right-wrapper">
               <label>
                 Стоимость в сутки (р):
                 <input type="range" name="price" min="1" max="3000">
@@ -71,7 +87,7 @@
             </div>
           </form>
         </section>
-        <div class="search-results">
+        <div class="search-results clearfix">
           <h2 class="result-number">Найдено: 3</h2>
           <div class="sorting">
             <p>Сортировка</p>
@@ -105,8 +121,10 @@
             <div class="description">
               <span class="kind-hotel">Гостиница</span>
               <span class="cost">от 4000 р.</span>
-              <a class="btn detail">Подробнее</a>
-              <a class="btn reserve">Забронировать</a>
+              <div class="hotel-buttons">
+                <a class="btn btn-detail">Подробнее</a>
+                <a class="btn btn-reserve">Забронировать</a>
+              </div>
             </div>
             <div class="raiting">
               <div class="stars four"></div>
@@ -121,8 +139,10 @@
             <div class="description">
               <span class="kind-hotel">Мотель</span>
               <span class="cost">от 3000 р.</span>
-              <a class="btn detail">Подробнее</a>
-              <a class="btn reserve">Забронировать</a>
+              <div class="hotel-buttons">
+                <a class="btn btn-detail">Подробнее</a>
+                <a class="btn btn-reserve">Забронировать</a>
+              </div>
             </div>
             <div class="raiting">
               <div class="stars three"></div>
@@ -137,8 +157,10 @@
             <h1><a href="#">Villas at Poco Diablo</a></h1>
               <span class="kind-hotel">Апартаменты</span>
               <span class="cost">от 2000 р.</span>
-              <a class="btn detail">Подробнее</a>
-              <a class="btn reserve">Забронировать</a>
+              <div class="hotel-buttons">
+                <a class="btn btn-detail">Подробнее</a>
+                <a class="btn btn-reserve">Забронировать</a>
+              </div>
             </div>
             <div class="raiting">
               <div class="stars two"></div>
