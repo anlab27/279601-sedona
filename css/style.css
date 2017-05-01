@@ -12,6 +12,10 @@ body {
   line-height: 21px;
   color: #000000;
   font-weight: bold;
+  width: 155px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 10px;
 }
 
 .features-blue .features-item h2 {
@@ -31,7 +35,9 @@ body {
   color: #000000;
   font-weight: bold;
   text-transform: uppercase;
-  margin-top: 0;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 7px;
 }
 
 a {
@@ -91,14 +97,11 @@ a {
 	text-transform: uppercase;
 }
 
-.greeting {
-	margin-bottom: 60px;
-}
-
 .features-title {
 	width: 575px;
 	margin: 0 auto;
-	margin-bottom: 55px;
+	padding-top: 53px;
+	padding-bottom: 23px;
 }
 
 .features-title h2,
@@ -106,10 +109,13 @@ a {
 	text-align: center;
 	text-transform: uppercase;
 	line-height: 26px;
+	margin: 0;
+	padding-bottom: 28px;
 }
 
 .features-blue .features-item {
 	background-color: #81b3d2;
+	color: #ffffff;
 }
 
 .features-first .features-item,
@@ -122,14 +128,27 @@ a {
 	height: 256px;
 	float: right;
 	background-color: #ed6cad;
+	background-image: url("../img/real-town.jpg");
 }
 
 .features-item {
 	width: 280px;
 	padding: 60px;
-	padding-top: 50px;
+	padding-top: 47px;
+	padding-bottom: 40px;
 	text-transform: uppercase;
 	text-align: center;
+}
+
+.features-item h2 {
+	width: 155px;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 10px
+}
+
+.features-item p {
+	padding-bottom: 6px;
 }
 
 .features-second .features-image {	
@@ -137,14 +156,11 @@ a {
 	height: 256px;
 	float: left;
 	background-color: #eab79f;
+	background-image: url("../img/bridge-devil.jpg");
 }
 
 .features-second .features-item {
 	float:right;
-}
-
-.features-first {
-	margin-bottom: 80px;
 }
 
 .advantages-item {
@@ -153,25 +169,26 @@ a {
 	text-transform: uppercase;
 	text-align: center;
 	padding: 60px;
-	margin-bottom: 20px;
-}
-
-.features-grey {
-	margin-bottom: 50px;
+	padding-top: 160px;
+	padding-bottom: 69px;
 }
 
 .choise-hotel-title {
+	padding-top: 25px;
 	text-transform: uppercase;
 	text-align: center;
 	line-height: 24px;
 }
+
 
 .choise-hotel-title h3 {
 	font-size: 30px;
 }
 
 .choise-hotel-title p {
-	margin-bottom: 50px;
+	padding-bottom: 79px;
+	width: 430px;
+	margin: 0 auto;
 }
 
 .choise-hotel-title .btn-search {
@@ -194,27 +211,35 @@ a {
 .hashtag {
 	width: 280px;
 	float:left;
-	padding: 50px 60px;
+	padding: 41px 60px;
 	line-height: 26px;
 	font-size: 21px;
 	font-weight: bold;
+	text-align: center;
 }
 
 .socials {
-	padding: 55px 125px;
+	padding: 35px 125px;
 	width: 150px;
 	float:left;
 }
 
 .copyright {
 	width: 200px;
-	padding: 40px 100px;
+	padding: 35px 100px;
 	float: right;
+}
+
+.copyright span {
+	text-transform: uppercase;
+	line-height: 26px;
+	vertical-align: top;
 }
 
 .search-conditions {
 	background-color: #83a4c3;
-	padding: 30px 72px
+	background-image: url("../img/fon-inner.jpg");
+	padding: 30px 72px;
 }
 
 .infrastructure,
@@ -222,6 +247,22 @@ a {
 	width: 240px;
 	float: left;
 	margin-right: 15px;
+	border: 0px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.infrastructure ul,
+.type-place ul,
+.search-results ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.search-conditions li {
+	padding-bottom: 5px;
+	padding-top: 15px;
 }
 
 .right-wrapper {
@@ -231,7 +272,7 @@ a {
 
 .search-results {
 	width: 1056px;
-	padding: 30px 72px;
+	padding: 10px 72px;
 	border-bottom: 2px solid #e5e5e5;
 }
 
@@ -250,6 +291,7 @@ a {
 	font-size: 12px;
 	line-height: 18px;
 	text-transform: uppercase;
+	padding-top: 13px;
 }
 
 .sorting li {
@@ -258,6 +300,7 @@ a {
 	font-size: 12px;
 	line-height: 18px;
 	text-transform: uppercase;
+	padding-top: 25px;
 }
 
 .arrows-sorting li{
@@ -267,7 +310,7 @@ a {
 }
 
 .hotel-list-item {
-	padding: 30px 72px;
+	padding: 32px 70px;
 	border-bottom: 2px solid #e5e5e5;
 }
 
@@ -280,11 +323,15 @@ a {
 .raiting {
 	width: 110px;
 	float: right;
-	text-transform: unset;
+	text-transform: uppercase;
 }
 
 .description span {
 	text-transform: uppercase;
+}
+
+.description-text {
+	padding-bottom: 11px;
 }
 
 .btn {
@@ -292,7 +339,7 @@ a {
 	margin-right: 6px;
 	font-weight: bold;
 	color: #ffffff;
-	padding: 5px 16px;
+	padding: 3px 16px;
 	text-transform: uppercase;
 }
 
